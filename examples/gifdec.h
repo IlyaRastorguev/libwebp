@@ -13,14 +13,14 @@
 #define WEBP_EXAMPLES_GIFDEC_H_
 
 #include <stdio.h>
-#include "webp/types.h"
+#include "../src/webp/types.h"
 
 #ifdef HAVE_CONFIG_H
-#include "webp/config.h"
+#include "../src/webp/types.h"
 #endif
 
 #ifdef WEBP_HAVE_GIF
-#include <gif_lib.h>
+#include "../../giflib/lib/gif_lib.h"
 #endif
 
 #ifdef __cplusplus
